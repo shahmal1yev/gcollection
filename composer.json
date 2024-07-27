@@ -1,5 +1,5 @@
 {
-    "name": "shahmal1yev/gCollection",
+    "name": "shahmal1yev/gcollection",
     "autoload": {
         "psr-4": {
             "GenericCollection\\": "src/",
