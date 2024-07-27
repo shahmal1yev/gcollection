@@ -1,6 +1,6 @@
 # PHP-based GenericCollection
 
-[![Version](https://img.shields.io/badge/Version-1.0.1-blue.svg)](https://semver.org/)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/shahmal1yev/gCollection?label=latest&style=flat)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/shahmal1yev/gCollection)
 ![GitHub issues](https://img.shields.io/github/issues/shahmal1yev/gCollection)
@@ -8,7 +8,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/shahmal1yev/gCollection)
 ![GitHub contributors](https://img.shields.io/github/contributors/shahmal1yev/gCollection)
 
-`GenericCollection` is a PHP library for handling collections with support for various primitive types. It allows for flexible type validation and manipulation of collections. 
+`GenericCollection` is a PHP library for handling collections with support for various primitive types. It allows for flexible type validation and manipulation of collections.
 
 ## Features
 
