@@ -8,13 +8,26 @@
 ![GitHub forks](https://img.shields.io/github/forks/shahmal1yev/gCollection)
 ![GitHub contributors](https://img.shields.io/github/contributors/shahmal1yev/gCollection)
 
-`GenericCollection` is a PHP library for handling collections with support for various primitive types. It allows for flexible type validation and manipulation of collections.
+`GenericCollection` is a PHP library for handling collections with support for various primitive types. It allows for flexible type validation and manipulation of collections. 
 
 ## Features
 
 - **Flexible Type Handling**: Supports various primitive types such as `int`, `string`, `float`, `bool`, and more.
 - **Type Validation**: Provides methods to validate if an item in the collection adheres to the specified type.
 - **Extensible**: Easily extendable to support custom types and validation logic.
+
+## Dependencies
+
+```json
+{
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.6.20"
+  }
+}
+```
 
 ## Installation
 
@@ -23,7 +36,7 @@ You can install `GenericCollection` via Composer. If you don't have Composer ins
 Run the following command to install `GenericCollection`:
 
 ```bash
-composer require shahmal1yev/gCollection
+composer require shahmal1yev/gcollection
 ```
 
 ## Usage
@@ -111,7 +124,7 @@ Contributions are welcome! Please follow these steps to contribute to the projec
 To run the tests, make sure you have PHPUnit installed. You can install it via Composer:
 
 ```bash
-composer require --dev phpunit/phpunit
+composer require --dev phpunit/phpunit:9.6.20
 ```
 
 Run the tests with the following command:
