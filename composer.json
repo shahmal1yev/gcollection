@@ -1,5 +1,6 @@
 {
     "name": "shahmal1yev/gcollection",
+    "description": "GenericCollection is a versatile PHP library that provides a type-safe collection class for managing various data types. Simplify your data management with intuitive methods and strong type constraints.",
     "autoload": {
         "psr-4": {
             "GenericCollection\\": "src/",
