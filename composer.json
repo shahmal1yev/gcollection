@@ -1,0 +1,15 @@
+{
+    "name": "shahmal1yev/gCollection",
+    "autoload": {
+        "psr-4": {
+            "GenericCollection\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.6.20"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests"
+    }
+}
