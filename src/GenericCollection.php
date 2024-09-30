@@ -161,13 +161,19 @@ class GenericCollection implements GenericCollectionInterface
     /**
      * Set a value at the specified offset.
      *
-     * @param mixed $offset The offset to set.
+     * @param int|string $offset The offset to set.
      * @param mixed $value The value to set.
      * @throws InvalidArgumentException If the value is not valid.
      */
     public function offsetSet($offset, $value): void
     {
         $this->validateWithException($value);
+
+        if (is_null($offset)) {
+            $this->collection[] = $value;
+            return;
+        }
+
         $this->collection[$offset] = $value;
     }
 
