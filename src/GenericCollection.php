@@ -149,6 +149,7 @@ class GenericCollection implements GenericCollectionInterface
      * @return mixed The value at the offset.
      * @throws UndefinedOffsetException If the offset does not exist.
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         if (!$this->offsetExists($offset)) {
